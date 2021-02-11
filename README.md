@@ -14,6 +14,7 @@ Sample:
 You can also add new coins. To do this:
   1. You will have to have the pricture of the currency and put it in the same folder along with binan.py.
   2. You will have to make two changes in binan.py:
+  
   At the layout section, you will need to add sg.Tab("CoinName", tabs("CoinName"), border_width="18"). *Coinname has to be capitalized.*
   In the end of the code, there is a list called "a_list". You will need to append the coinname to the list, too.
   
